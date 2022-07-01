@@ -11,7 +11,6 @@ public class Vehicle {
     private float rentalPrice;
     private boolean rented;
 
-    // create the constructor to define the attributes
     public Vehicle(String licensePlate, String producer, long productID, float topSpeed,
                    float mileageRate, String color, float kilowatt, float rentalPrice, boolean rented) {
         this.licensePlate = licensePlate;   // "this." returns the class
