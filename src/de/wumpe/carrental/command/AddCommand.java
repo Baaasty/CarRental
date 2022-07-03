@@ -117,7 +117,7 @@ public class AddCommand {
                 }
             }
 
-            System.out.printf("Das Fahrzeug '%d' wurde entfernt\n", id);
+            System.out.printf("Das Fahrzeug '%d' wurde hinzugefügt\n", id);
         } catch (NumberFormatException exception) {
             System.out.println("Überprüfe deine Argumente");
             System.out.println("Tipp: 'arguments'");
