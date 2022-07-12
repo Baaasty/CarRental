@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class CarRental {
+public abstract class CarRental {
     private static final HashMap<Long, Object> vehicles = new HashMap<>();
 
     public static void main(String[] args) throws InterruptedException {

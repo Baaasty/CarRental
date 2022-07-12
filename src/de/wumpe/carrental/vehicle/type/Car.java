@@ -2,7 +2,7 @@ package de.wumpe.carrental.vehicle.type;
 
 import de.wumpe.carrental.vehicle.Vehicle;
 
-public class Car extends Vehicle {
+public abstract class Car extends Vehicle {
     private byte seats;
     private byte people;
 
